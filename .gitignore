@@ -1,0 +1,31 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+kk-app/node_modules
+
+kk-app/semantic/dist/*
+kk-app/semantic/gulpfile.js
+kk-app/semantic/src/*
+kk-app/semantic/tasks
+!kk-app/semantic/dist/semantic.min.css
+!kk-app/semantic/dist/semantic.min.js
+kk-app/.pnp
+.pnp.js
+
+# testing
+kk-app/coverage
+
+# production
+kk-app/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+kk-app/.gitignore
